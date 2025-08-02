@@ -41,13 +41,16 @@ const Header = () => {
               variant="ghost" 
               size="sm"
               onClick={toggleLanguage}
-              className="text-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors duration-200"
+          
+              
             >
               {language === 'ES' ? 'EN' : 'ES'}
+              
             </Button>
-            <Button variant="default" className="bg-gradient-primary hover:shadow-primary">
+            {/* <Button variant="default" className="bg-gradient-primary hover:shadow-primary">
               {t('nav.contact.button')}
-            </Button>
+            </Button> */}
           </div>
 
           <div className="md:hidden">

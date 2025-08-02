@@ -34,10 +34,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="#servicios" className="text-foreground hover:text-primary transition-colors duration-200">
             <Button size="lg" className="bg-gradient-primary hover:shadow-primary text-lg px-8 py-4 animate-glow">
               {t('hero.button.services')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
+            </a>
             
             
           </div>

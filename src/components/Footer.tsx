@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-background/60">
-          <p>&copy; 2024 bees IoT. {t('footer.rights')}</p>
+          <p>&copy; 2025 bees IoT. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

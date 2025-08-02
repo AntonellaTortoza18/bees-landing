@@ -37,19 +37,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: t('contact.info.email'),
-      info: 'info@beesiot.com',
-      link: 'mailto:info@beesiot.com'
+      info: 'hola@bees.com.ar',
+      link: 'mailto:hola@bees.com.ar'
     },
     {
       icon: Phone,
       title: t('contact.info.phone'),
-      info: '+34 900 000 000',
-      link: 'tel:+34900000000'
+      info: '(+54) 11 5456 7808',
+      link: 'tel: (+54) 11 5456 7808'
     },
     {
       icon: MapPin,
       title: t('contact.info.location'),
-      info: 'Madrid, España',
+      info: 'Gral Enrique Martinez 273, Colegiales, Ciudad de Buenos Aires, Argentina',
+      
       link: '#'
     }
   ];
